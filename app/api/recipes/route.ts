@@ -2,7 +2,7 @@ import { NextResponse } from "next/server"
 
 const RAPID_API_KEY = process.env.RAPID_API_KEY || ""
 
-const base_url = "https://low-carb-recipes.p.rapidapi.com/search"
+const base_url = "http://localhost:3004/recipes"
 
 export async function POST(request: Request) {
   const { query } = await request.json()
