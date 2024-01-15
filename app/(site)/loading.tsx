@@ -8,7 +8,7 @@ export default function Loading() {
       <div className="mx-auto flex  flex-col items-center justify-center text-center">
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-4">
-            <DotsHorizontalIcon className="mr-2 h-8 w-8 animate-ping" />
+            <DotsHorizontalIcon className="mr-2 size-8 animate-ping" />
           </div>
         </div>
       </div>

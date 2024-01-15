@@ -33,7 +33,7 @@ export async function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <TwitterLogoIcon className="h-5 w-5 fill-current" />
+                <TwitterLogoIcon className="size-5 fill-current" />
                 <span className="sr-only">Twitter</span>
               </div>
             </Link>
@@ -48,7 +48,7 @@ export async function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <GitHubLogoIcon className="h-5 w-5 fill-current" />
+                <GitHubLogoIcon className="size-5 fill-current" />
                 <span className="sr-only">Github</span>
               </div>
             </Link>

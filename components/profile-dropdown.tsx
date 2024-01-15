@@ -18,7 +18,7 @@ export function ProfileDropdown() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" className="-ml-2 gap-2 px-2 py-1">
-          <PersonIcon className="h-5 w-5" />
+          <PersonIcon className="size-5" />
           <p>Profile</p>
           <span className="sr-only">Toggle Sidebar</span>
         </Button>

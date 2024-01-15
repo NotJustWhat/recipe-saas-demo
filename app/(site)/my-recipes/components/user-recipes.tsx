@@ -37,7 +37,7 @@ export async function UserRecipeCard({
                 width={width}
                 height={height}
                 className={cn(
-                  "h-auto w-auto cursor-pointer object-cover transition-all hover:scale-105",
+                  "size-auto cursor-pointer object-cover transition-all hover:scale-105",
                   aspectRatio === "portrait" ? "aspect-[3/4]" : "aspect-square"
                 )}
               />
