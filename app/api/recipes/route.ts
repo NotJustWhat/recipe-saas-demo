@@ -2,7 +2,7 @@ import { NextResponse } from "next/server"
 
 const RAPID_API_KEY = process.env.RAPID_API_KEY || ""
 
-const base_url = "http://localhost:3004/recipes"
+const base_url = "https://json-server-nx18.onrender.com/recipes"
 
 export async function POST(request: Request) {
   const { query } = await request.json()
