@@ -90,6 +90,9 @@ Navigate to your Stripe dashboard -> Products -> Add product. For this demo, I r
 
 After this, you should be redirected to a page where you'll find 'Signing secret`. Copy and paste it in the place of `STRIPE_WEBHOOK_SECRET`in your`.env` file. Then, redeploy the app to Vercel.
 
+## Listen to stripe webhook events locally
+`stripe listen --forward-to=localhost:3000/api/webhooks`
+
 ### Supabase
 
 Dashboard -> `Authentication` -> `URL Configuration` -> put your domain assigned by Vercel in `Site URL`
